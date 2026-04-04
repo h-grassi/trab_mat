@@ -21,7 +21,7 @@ public class Main {
         while (iteracao == 1) {
             int nivel;
             
-            System.out.println("Escolha umaum nível entre 1 e 4.");
+            System.out.println("Escolha um nível entre 1 e 4.");
             nivel = scanner.nextInt();
 
             switch (nivel) {

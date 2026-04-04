@@ -6,6 +6,8 @@ public class Exercicio5 {
     // Método principal deste exercício que será chamado pelo seu Menu
     public void executar() {
         System.out.println("Exercício 5: Remover duplicatas (sem ordenar)");
+        System.out.println("Em construção");
+        /*
         Random aleatorio = new Random();
         int val_aleat_min = 1;
         int val_aleat_max = 5;
@@ -21,15 +23,12 @@ public class Exercicio5 {
         }
         System.out.println("]\n");
 
-        for(int i=0; i <= vetor.length; i++){
+        for(int i=0; i <= vetor.length - 1; i++){
             int [] aux_vet = new int[vetor.length];
-
-            for(int x=0; x <= vetor.length; x++){
-                if(x != i && vetor[i] == vetor[x]){
-                    System.out.println( "Em construção!!");
-                }
-            }
+            if(vetor[i]== aux_vet[i])
             
         } 
-        System.out.println("");
+        System.out.println(""); */
 }}
+
+// System.out.println("aux: "+ aux_vet[x]); //System.out.println("Valor de i: " + vetor[i] + " | Valor de x: " + vetor[x]);

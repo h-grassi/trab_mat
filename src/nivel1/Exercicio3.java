@@ -15,7 +15,7 @@ public class Exercicio3 {
         int aux_val = aleatorio.nextInt((val_aleat_max - val_aleat_min) + 1) + val_aleat_min;
         
         //montagem do vetor
-        System.out.print("Vetor: ");
+        System.out.print("Vetor: [");
         for(int i = 0; i<10 ; i ++){
             vetor[i] = aleatorio.nextInt((val_aleat_max - val_aleat_min) + 1) + val_aleat_min;
             System.out.print(vetor[i]);
@@ -23,7 +23,7 @@ public class Exercicio3 {
                System.out.print( ",");
             } 
         }
-        System.out.println("");
+        System.out.println("]\n");
         System.out.println("Iremos contar as ocorrências do valor :" + aux_val);
         
         int aux_indice = 0;
