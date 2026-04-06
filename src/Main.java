@@ -25,10 +25,10 @@ public class Main {
             nivel = scanner.nextInt();
 
             switch (nivel) {
-            case 1-> nivel1.Menu.exibir();  //System.out.println("Exercício do Nível 1 selecionado.");
-            case 2-> System.out.println("Exercício do Nível 2 selecionado."); 
-            case 3-> System.out.println("Exercício do Nível 3 selecionado."); 
-            case 4-> System.out.println("Exercício do Nível 4 selecionado."); 
+            case 1-> nivel1.Menu.exibir();  
+            case 2-> nivel2.Menu.exibir();
+            case 3-> nivel3.Menu.exibir();//System.out.println("Exercício do Nível 3 selecionado."); 
+            case 4-> nivel4.Menu.exibir();//System.out.println("Exercício do Nível 4 selecionado."); 
             default-> System.out.println("Opção inválida. Digite um número entre 1 e 4.");
         }
         System.out.println("Deseja realizar outro exercício? Se sim escolha o nível-> (1 - Sim, 0 - Não)");
@@ -39,7 +39,6 @@ public class Main {
             }
         System.out.flush();//limpa o console
         }
-
     System.out.println("Programa encerrado pelo usuário.");
     scanner.close();
     }

@@ -29,7 +29,7 @@ public class Menu{
             case 7 -> new Exercicio7().executar(); 
             case 8 -> new Exercicio8().executar(); 
 
-            default -> System.out.println("Opção inválida. Digite um número entre 1 e 1.");
+            default -> System.out.println("Opção inválida. Digite um número entre 1 e 9.");
         }
     }
 }
