@@ -28,7 +28,7 @@ public class Exercicio5 {
         for(int i=0; i <= vetor.length - 1; i++){
             int insere_num = 1; //se zero não insere, se um insere
             
-            for(int x = 0; x< vetor.length; x++){
+            for(int x = 0; x < vetor.length; x++){
                 if(vetor[i] == vet_resultado[x]){
                     insere_num =0;
                 }

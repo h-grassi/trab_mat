@@ -27,7 +27,7 @@ public class Menu{
         opcao = scanner.nextInt();
 
         switch (opcao) {
-            case 9  -> System.out.println("Em construção"); //new Exercicio9().executar();
+            case 9  -> new Exercicio9().executar();
             case 10 -> System.out.println("Em construção"); //new Exercicio10().executar(); 
             case 11 -> System.out.println("Em construção"); //new Exercicio11().executar(); 
             case 12 -> System.out.println("Em construção"); //new Exercicio12().executar(); 
