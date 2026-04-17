@@ -32,7 +32,5 @@ public class Exercicio1 {
         }
         System.out.println("Notas acima da média: " + acimaMedia);
         System.out.println("Notas abaixo da média: " + abaixoMedia);
-        System.out.println("teste compilação exerc");
-        scanner.close();
     }   
 }
