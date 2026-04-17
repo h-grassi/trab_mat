@@ -30,7 +30,7 @@ public class Menu{
             case 9  -> new Exercicio9().executar();
             case 10 -> System.out.println("Em construção"); //new Exercicio10().executar(); 
             case 11 -> System.out.println("Em construção"); //new Exercicio11().executar(); 
-            case 12 -> System.out.println("Em construção"); //new Exercicio12().executar(); 
+            case 12 -> new Exercicio12().executar(); 
             case 13 -> System.out.println("Em construção"); //new Exercicio13().executar(); 
             case 14 -> System.out.println("Em construção"); //new Exercicio14().executar(); 
             case 15 -> System.out.println("Em construção"); //new Exercicio15().executar(); 
