@@ -1,14 +1,6 @@
 package nivel2;
 import java.util.Scanner;
 
-//import nivel1.Exercicio1;
-//import nivel1.Exercicio2;
-//import nivel1.Exercicio3;
-//import nivel1.Exercicio4;
-//import nivel1.Exercicio5;
-//import nivel1.Exercicio6;
-//import nivel1.Exercicio7;
-
 public class Menu{
     public static void exibir() {
         Scanner scanner = new Scanner(System.in);
@@ -32,7 +24,7 @@ public class Menu{
             case 11 -> System.out.println("Em construção"); //new Exercicio11().executar(); 
             case 12 -> new Exercicio12().executar(); 
             case 13 -> System.out.println("Em construção"); //new Exercicio13().executar(); 
-            case 14 -> System.out.println("Em construção"); //new Exercicio14().executar(); 
+            case 14 -> new Exercicio14().executar(); 
             case 15 -> System.out.println("Em construção"); //new Exercicio15().executar(); 
             default -> System.out.println("Opção inválida. Digite um número entre 9 e 15.");
         }

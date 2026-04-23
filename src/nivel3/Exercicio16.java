@@ -150,7 +150,7 @@ public class Exercicio16 {
         }
         //verifica diagonal 2
         if(!campo[0][2].isBlank() && !campo[1][1].isBlank() && !campo[0][2].isBlank()){
-            if(campo[0][2].equals(campo[1][1]) && campo[0][2].equals(campo[0][2])){
+            if(campo[0][2].equals(campo[1][1]) && campo[0][2].equals(campo[2][0])){
                 parabenizaVencedor(campo[0][2]);
                 return 1;
             }
