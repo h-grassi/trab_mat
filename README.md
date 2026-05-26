@@ -11,3 +11,5 @@ Executar: java -cp src Main
 #estrutura do programa
 
 Alterando o readme para teste do bisect
+
+alterando o readme uma segunda vez para teste do bisect
