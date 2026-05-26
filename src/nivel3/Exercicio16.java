@@ -3,11 +3,9 @@ import java.util.Scanner;
 
 public class Exercicio16 {
     public void executar(){
-        String [][] campo = new String[3][3];
+        String [][] campo = {{" "," "," "},{" "," "," "},{" "," "," "}};
         int jogoFinalizado = 0;
         System.out.println("Exercício 16: jogo da velha");
-        //monta o campo 
-        montaCampo(campo);
         exibeCampo(campo);
 
         System.out.println("Vamos começar:");
@@ -41,15 +39,6 @@ public class Exercicio16 {
             jogoFinalizado = encerraJogo(campo);
         }
         System.out.println("Jogo encerrado");
-    }
-    
-    
-    public void montaCampo(String [][] campo){
-        for(int i=0; i< campo.length; i++){
-            for(int x = 0; x < campo[i].length; x ++){
-                campo[i][x]= " ";
-            }
-        }
     }
 
     public void exibeCampo(String [][] campo){
@@ -175,4 +164,3 @@ public class Exercicio16 {
         }
     }
 }
-
