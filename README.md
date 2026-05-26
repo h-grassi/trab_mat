@@ -9,3 +9,5 @@ Compilar todos os arquivos: javac *.java
 Executar: java -cp src Main
 
 #estrutura do programa
+
+Alterando o readme para teste do bisect
